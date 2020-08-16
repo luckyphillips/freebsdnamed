@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/local/bin/bash
 if ! [ $(id -u) = 0 ]; then
    echo -e "\n\n****  You must run this script as ROOT user  ****\n\n"
    exit 1
